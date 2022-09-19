@@ -2,17 +2,24 @@
 	/* CSS Code */
 	/* Heading */
 	h1 {
-		color: orangered;
+		color: white;
+		font-weight: bold;
 		font-size: 45px;
+		margin-top: 10px;
+	}
+	#print
+	{
+		color: black;
 	}
 
 	/* 3*3 Grid */
 	#b1, #b2, #b3, #b4, #b5,
 	#b6, #b7, #b8, #b9 {
-		width: 80px;
-		height: 52px;
-		margin: auto;
-		border: 1px solid gray;
+		margin-top:10px;
+		width:100px;
+		height:70px;
+		margin: auto 5px;
+		border: 2px solid rgb(14, 161, 161);
 		border-radius: 6px;
 		font-size: 30px;
 		text-align: center;
@@ -23,13 +30,12 @@
 		box-sizing: border-box;
 		width: 95px;
 		height: 40px;
-		border: 1px solid dodgerblue;
+		border: 1px solid rgb(42, 147, 147);
 		margin: auto;
 		border-radius: 4px;
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
-
-		background-color: dodgerblue;
+		background-color: rgb(42, 147, 147);
 		color: white;
 		font-size: 20px;
 		cursor: pointer;
@@ -39,8 +45,7 @@
 	#print {
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
-
-		color: dodgerblue;
+		color:rgb(42, 147, 147);
 		font-size: 20px;
 	}
 
@@ -53,8 +58,26 @@
 	#ins {
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
-			
-		color: dodgerblue;
-		font-size: 17px;
+			color:white;
+		    font-size: 17px;
 	}
 
+    .rightConteiner
+	{
+		
+		background-color: rgb(42, 147, 147);
+		
+	} 
+	.rightConteiner p
+	{
+		margin-top:25%;
+		color:white;
+	}
+	.leftConteiner
+	{
+		border:2px solid rgb(42, 147, 147);
+	}
+	.inputGroup
+	{
+		margin-top:10%;
+	}
